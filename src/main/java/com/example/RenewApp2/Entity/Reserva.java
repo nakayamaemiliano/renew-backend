@@ -24,43 +24,4 @@ public class Reserva {
     private Date fechaReserva;
     private int cantidad;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Usuario getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
-    }
-
-    public Vinilo getVinilo() {
-        return vinilo;
-    }
-
-    public void setVinilo(Vinilo vinilo) {
-        this.vinilo = vinilo;
-    }
-
-    public Date getFechaReserva() {
-        return fechaReserva;
-    }
-
-    public void setFechaReserva(Date fechaReserva) {
-        this.fechaReserva = fechaReserva;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
 }
